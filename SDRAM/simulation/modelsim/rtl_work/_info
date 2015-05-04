@@ -1,0 +1,155 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\simulation\modelsim
+Ppcg
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 w1430194130
+Z5 dC:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\simulation\modelsim
+Z6 8C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd
+Z7 FC:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd
+l0
+L5
+V^`0VGNg`R9QNAWiAHTzcT1
+Z8 OV;C;10.1e;51
+31
+b1
+Z9 !s108 1430200702.783000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd|
+Z11 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 WkbU1^2]<mTbC<oGN=nZ_0
+!i10b 1
+Bbody
+Z14 DPx4 work 3 pcg 0 22 ^`0VGNg`R9QNAWiAHTzcT1
+R1
+R2
+R3
+l0
+L12
+V?Bz=UKJl;[ROQSe3ZeQlj0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+nbody
+!s100 ;k6Z^C6RnLlj34^9`:f403
+!i10b 1
+Esdram
+Z15 w1430200342
+R14
+R1
+R2
+R3
+R5
+Z16 8C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+Z17 FC:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+l0
+L8
+VQo9=^lhWQ>b@;L[kO7V6n1
+!s100 AmVA2ho@Fc`gV<G49V<U30
+R8
+31
+!i10b 1
+Z18 !s108 1430200703.008000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd|
+Z20 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd|
+R12
+R13
+Amain
+R14
+R1
+R2
+R3
+DEx4 work 5 sdram 0 22 Qo9=^lhWQ>b@;L[kO7V6n1
+l136
+L36
+VBiAzMgo20C6RkoLP`64gc1
+!s100 fj]e>iVYIkRG7X::zmXCd2
+R8
+31
+!i10b 1
+R18
+R19
+R20
+R12
+R13
+Etrue_dual_port_ram_dual_clock
+Z21 w1429923885
+R2
+R3
+R5
+Z22 8C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd
+Z23 FC:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd
+l0
+L11
+V`UVJS6CL6]0XRG8[gmX9d1
+R8
+31
+Z24 !s108 1430200702.474000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd|
+Z26 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd|
+R12
+R13
+!s100 LjA]cBFiV2lZbLi`6U5X80
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 29 true_dual_port_ram_dual_clock 0 22 `UVJS6CL6]0XRG8[gmX9d1
+l38
+L29
+Vhgk9A@Pi?EYVAOO@1amGS1
+R8
+31
+R24
+R25
+R26
+R12
+R13
+!s100 Jo<L]mWRkXQCG>OBPe]e]3
+!i10b 1
+Evga
+Z27 w1430096978
+R1
+R2
+R3
+R5
+Z28 8C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd
+Z29 FC:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd
+l0
+L6
+V3UYIf?21`No7<A6V]lKNC1
+R8
+31
+Z30 !s108 1430200702.243000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd|
+Z32 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd|
+R12
+R13
+!s100 1[?hML3n6^PIMbHS2agj=1
+!i10b 1
+Amain
+R1
+R2
+R3
+DEx4 work 3 vga 0 22 3UYIf?21`No7<A6V]lKNC1
+l21
+L19
+VQ_XJG[@l[<]?PnYQfk75G2
+R8
+31
+R30
+R31
+R32
+R12
+R13
+!s100 R:m9;<P8=IVU9dQZ[a[1G0
+!i10b 1

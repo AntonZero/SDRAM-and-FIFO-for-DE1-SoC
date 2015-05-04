@@ -1,0 +1,2464 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do SDRAM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib RAMSYS
+# ** Warning: (vlib-34) Library already exists at "RAMSYS".
+# 
+# vmap RAMSYS RAMSYS
+# Modifying modelsim.ini
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS
+# 
+# Top level modules:
+# 	RAMSYS
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_new_sdram_controller_0_input_efifo_module
+# -- Compiling module RAMSYS_new_sdram_controller_0
+# 
+# Top level modules:
+# 	RAMSYS_new_sdram_controller_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_pll_0
+# 
+# Top level modules:
+# 	RAMSYS_pll_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga
+# -- Compiling architecture main of vga
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity true_dual_port_ram_dual_clock
+# -- Compiling architecture rtl of true_dual_port_ram_dual_clock
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pcg
+# -- Compiling package body pcg
+# -- Loading package pcg
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pcg
+# -- Compiling entity sdram
+# -- Compiling architecture main of sdram
+# 
+vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.sdram
+# vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.sdram 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pcg(body)
+# Loading work.sdram(main)
+# ** Warning: (vsim-3473) Component instance "u0 : ramsys" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /sdram File: C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+# Loading work.vga(main)
+# Loading work.true_dual_port_ram_dual_clock(rtl)
+# do SDRAM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlib RAMSYS
+# ** Warning: (vlib-34) Library already exists at "RAMSYS".
+# 
+# vmap RAMSYS RAMSYS
+# Modifying modelsim.ini
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS
+# 
+# Top level modules:
+# 	RAMSYS
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_new_sdram_controller_0_input_efifo_module
+# -- Compiling module RAMSYS_new_sdram_controller_0
+# 
+# Top level modules:
+# 	RAMSYS_new_sdram_controller_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_pll_0
+# 
+# Top level modules:
+# 	RAMSYS_pll_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga
+# -- Compiling architecture main of vga
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity true_dual_port_ram_dual_clock
+# -- Compiling architecture rtl of true_dual_port_ram_dual_clock
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pcg
+# -- Compiling package body pcg
+# -- Loading package pcg
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pcg
+# -- Compiling entity sdram
+# -- Compiling architecture main of sdram
+# 
+add wave -position insertpoint  \
+sim:/sdram/BUFF_EN
+add wave -position insertpoint  \
+sim:/sdram/ACTVIDEO
+add wave -position insertpoint  \
+sim:/sdram/CAPTURE
+add wave -position insertpoint  \
+sim:/sdram/CLK143
+add wave -position insertpoint  \
+sim:/sdram/CLK49_5
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR2
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR1_bin
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR1
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR2_bin
+add wave -position insertpoint  \
+sim:/sdram/RAMFULL_POINTER
+add wave -position insertpoint  \
+sim:/sdram/RAMRESTART_POINTER
+add wave -position insertpoint  \
+sim:/sdram/SDRAM_WAIT
+add wave -position insertpoint  \
+sim:/sdram/SDRAM_RDVAL
+add wave -position insertpoint  \
+sim:/sdram/VGABEGIN
+add wave -position insertpoint  \
+sim:/sdram/VGAFLAG
+add wave -position insertpoint  \
+sim:/sdram/bufF_WAIT
+force -freeze sim:/sdram/CLK143 1 0, 0 {7 ps} -r 15
+force -freeze sim:/sdram/CLK49_5 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 45 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 45 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 135 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 135 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 165 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 165 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 195 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 195 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 285 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 285 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+force -freeze sim:/sdram/CAPTURE ST1 0
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_WAIT 0 0
+run
+run
+run
+run
+run
+force -deposit sim:/sdram/RAMFULL_POINTER 10 0
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/VGABEGIN 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/sdram/RAMFULL_POINTER
+run
+run
+force -deposit sim:/sdram/bufF_WAIT 000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.sdram
+# vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.sdram 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pcg(body)
+# Loading work.sdram(main)
+# ** Warning: (vsim-3473) Component instance "u0 : ramsys" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /sdram File: C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+# Loading work.vga(main)
+# Loading work.true_dual_port_ram_dual_clock(rtl)
+# do SDRAM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlib RAMSYS
+# ** Warning: (vlib-34) Library already exists at "RAMSYS".
+# 
+# vmap RAMSYS RAMSYS
+# Modifying modelsim.ini
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS
+# 
+# Top level modules:
+# 	RAMSYS
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_new_sdram_controller_0_input_efifo_module
+# -- Compiling module RAMSYS_new_sdram_controller_0
+# 
+# Top level modules:
+# 	RAMSYS_new_sdram_controller_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_pll_0
+# 
+# Top level modules:
+# 	RAMSYS_pll_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga
+# -- Compiling architecture main of vga
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity true_dual_port_ram_dual_clock
+# -- Compiling architecture rtl of true_dual_port_ram_dual_clock
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pcg
+# -- Compiling package body pcg
+# -- Loading package pcg
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pcg
+# -- Compiling entity sdram
+# -- Compiling architecture main of sdram
+# 
+add wave -position insertpoint  \
+sim:/sdram/ACTVIDEO
+add wave -position insertpoint  \
+sim:/sdram/BUFF_EN
+add wave -position insertpoint  \
+sim:/sdram/CAPTURE
+add wave -position insertpoint  \
+sim:/sdram/CLK143
+add wave -position insertpoint  \
+sim:/sdram/CLK49_5
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR1
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR1_bin
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR2
+add wave -position insertpoint  \
+sim:/sdram/RAMADDR2_bin
+add wave -position insertpoint  \
+sim:/sdram/RAMFULL_POINTER
+add wave -position insertpoint  \
+sim:/sdram/SDRAM_RDVAL
+add wave -position insertpoint  \
+sim:/sdram/SDRAM_WAIT
+add wave -position insertpoint  \
+sim:/sdram/VGABEGIN
+force -freeze sim:/sdram/CLK143 1 0, 0 {7 ps} -r 15
+force -freeze sim:/sdram/CLK49_5 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 45 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 45 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+force -freeze sim:/sdram/CAPTURE ST1 0
+run
+run
+add wave -position insertpoint  \
+sim:/sdram/RAMRESTART_POINTER
+force -freeze sim:/sdram/SDRAM_WAIT 1 0
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_WAIT 0 0
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/sdram/bufF_WAIT
+force -deposit sim:/sdram/bufF_WAIT 000 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/VGABEGIN 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/bufF_WAIT 000 0
+run
+run
+noforce sim:/sdram/bufF_WAIT
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+force -freeze sim:/sdram/SDRAM_WAIT 1 0
+force -freeze sim:/sdram/SDRAM_WAIT 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -drive sim:/sdram/bufF_WAIT 000 0
+run
+run
+force -freeze sim:/sdram/bufF_WAIT 000 0
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/sdram/bufF_WAIT
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/RAMADDR1 200 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0, 0 {500 ps} -r 1000
+force -freeze sim:/sdram/ACTVIDEO 1 0, 0 {2500 ps} -r 5000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+noforce sim:/sdram/RAMFULL_POINTER
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# Loading work.pcg(body)
+# Loading work.sdram(main)
+# ** Warning: (vsim-3473) Component instance "u0 : ramsys" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /sdram File: C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+# Loading work.vga(main)
+# Loading work.true_dual_port_ram_dual_clock(rtl)
+force -freeze sim:/sdram/CLK49_5 1 0, 0 {50 ps} -r 100
+force -freeze sim:/sdram/CLK143 1 0, 0 {15 ps} -r 30
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 510 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 540 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 540 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 570 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 570 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 630 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 660 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 660 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 690 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 690 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 720 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 720 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 810 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 840 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 840 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 870 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 870 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 930 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 960 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 960 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 990 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 990 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1020 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1020 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1080 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1080 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1110 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1140 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1140 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1230 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1260 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1260 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1290 ps  Iteration: 0  Instance: /sdram
+force -deposit sim:/sdram/RAMFULL_POINTER 10 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1320 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1320 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1380 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1380 ps  Iteration: 0  Instance: /sdram
+add wave -position insertpoint  \
+sim:/sdram/SW
+force -freeze sim:/sdram/SW 00000111111 0
+# Value length (11) does not equal array index length (10).
+# 
+# ** Error: (vsim-4011) Invalid force value: 00000111111 0.
+# 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1410 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1440 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1440 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1500 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1530 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1530 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1560 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1560 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1590 ps  Iteration: 0  Instance: /sdram
+force -freeze sim:/sdram/SW UUUUUUUUUU 0
+force -freeze sim:/sdram/SW 0000011111 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1620 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1680 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1710 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1740 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1770 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1800 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1830 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1860 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1890 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1920 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1980 ps  Iteration: 0  Instance: /sdram
+force -freeze sim:/sdram/ACTVIDEO 0 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2010 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2040 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2070 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2100 ps  Iteration: 0  Instance: /sdram
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2130 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2160 ps  Iteration: 0  Instance: /sdram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2190 ps  Iteration: 0  Instance: /sdram
+force -freeze sim:/sdram/CAPTURE ST1 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_WAIT 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_WAIT 1 0
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 0 0
+run
+run
+run
+force -freeze sim:/sdram/VGABEGIN 1 0
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 0 0
+force -freeze sim:/sdram/SDRAM_WAIT 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/SDRAM_RDVAL 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/ACTVIDEO 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/RAMADDR1 54 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/sdram/RAMADDR2 50 0
+force -freeze sim:/sdram/RAMFULL_POINTER 50 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

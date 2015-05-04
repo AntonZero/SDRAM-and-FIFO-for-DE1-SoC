@@ -1,0 +1,21 @@
+Quartus II Archive log --	C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/SDRAM_V1.qarlog
+
+Archive:	C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/SDRAM_V1.qar
+Date:		Tue Apr 28 16:19:37 2015
+Quartus II 64-Bit		14.0.0 Build 200 06/17/2014 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAMSYS.qsys
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/SDRAM.qpf
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/SDRAM.qsf
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/gray.vhd
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/my.vhd
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/output_files/Chain1.cdf
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd
+C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd
+c:/altera/14.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

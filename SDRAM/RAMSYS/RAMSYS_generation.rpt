@@ -1,0 +1,47 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM --output-directory=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS --report-file=bsf:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\RAMSYS.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS.qsys
+Progress: Loading SDRAM/RAMSYS.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 14.0]
+Progress: Parameterizing module clk_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding pll_0 [altera_pll 14.0]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: RAMSYS.RAMSYS: There are recommended upgrades for: pll_0
+Info: RAMSYS.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: RAMSYS.pll_0: Able to implement PLL - Actual settings differ from Requested settings
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM --output-directory=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\synthesis --file-set=QUARTUS_SYNTH --report-file=html:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\RAMSYS.html --report-file=sopcinfo:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS.sopcinfo --report-file=cmp:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\RAMSYS.cmp --report-file=qip:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\synthesis\RAMSYS.qip --report-file=svd:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\synthesis\RAMSYS.svd --report-file=regmap:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\synthesis\RAMSYS.regmap --report-file=xml:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\RAMSYS.xml --report-file=debuginfo:C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS\synthesis\RAMSYS.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\RAMSYS.qsys --language=VERILOG
+Progress: Loading SDRAM/RAMSYS.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 14.0]
+Progress: Parameterizing module clk_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding pll_0 [altera_pll 14.0]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: RAMSYS.RAMSYS: There are recommended upgrades for: pll_0
+Info: RAMSYS.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: RAMSYS.pll_0: Able to implement PLL - Actual settings differ from Requested settings
+Info: RAMSYS: Generating RAMSYS "RAMSYS" for QUARTUS_SYNTH
+Info: new_sdram_controller_0: Starting RTL generation for module 'RAMSYS_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=RAMSYS_new_sdram_controller_0 --dir=C:/Users/Antonio/AppData/Local/Temp/alt6553_8044778409865870216.dir/0001_new_sdram_controller_0_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/Antonio/AppData/Local/Temp/alt6553_8044778409865870216.dir/0001_new_sdram_controller_0_gen//RAMSYS_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'RAMSYS_new_sdram_controller_0'
+Info: new_sdram_controller_0: "RAMSYS" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: pll_0: "RAMSYS" instantiated altera_pll "pll_0"
+Info: rst_controller: "RAMSYS" instantiated altera_reset_controller "rst_controller"
+Info: RAMSYS: Done "RAMSYS" with 4 modules, 7 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

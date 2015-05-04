@@ -1,0 +1,85 @@
+Archive Project report for SDRAM
+Tue Apr 28 16:19:37 2015
+Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Apr 28 16:19:37 2015 ;
+; Revision Name          ; SDRAM                                 ;
+; Top-level Entity Name  ; SDRAM                                 ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/SDRAM_V1.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'SDRAM.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/14.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 404 megabytes
+    Info: Processing ended: Tue Apr 28 16:19:37 2015
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; c:/altera/14.0/quartus/bin64/assignment_defaults.qdf ;
+; gray.vhd                                             ;
+; my.vhd                                               ;
+; output_files/Chain1.cdf                              ;
+; RAM.vhd                                              ;
+; RAMSYS.qsys                                          ;
+; SDRAM.qpf                                            ;
+; SDRAM.qsf                                            ;
+; sdram.vhd                                            ;
+; vga.vhd                                              ;
++------------------------------------------------------+
+
+

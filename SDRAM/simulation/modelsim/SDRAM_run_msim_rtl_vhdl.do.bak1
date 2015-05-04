@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlib RAMSYS
+vmap RAMSYS RAMSYS
+vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v}
+vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v}
+vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v}
+vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/vga.vhd}
+vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/sdram.vhd}
+vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/gray.vhd}
+vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/SDRAM/RAM.vhd}
+

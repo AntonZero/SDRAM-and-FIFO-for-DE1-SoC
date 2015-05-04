@@ -1,0 +1,129 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\simulation\modelsim
+valtera_reset_controller
+IjX1>>ThIc6J;P>LLMVB]43
+Vd6XZeNR]PniX]Sml3E;hm2
+Z1 dC:\Users\Antonio\Desktop\FPGA-SOC\SDRAM\simulation\modelsim
+Z2 w1430200365
+8c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v
+Fc:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v
+L0 42
+Z3 OV;L;10.1e;51
+r1
+31
+Z4 o-vlog01compat -work RAMSYS -O0
+Z5 !s92 -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules -O0
+!i10b 1
+!s100 jQO_LCHI80kAQc2HaHioo0
+!s85 0
+!s108 1430200701.870000
+!s107 c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|RAMSYS|+incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules|c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_controller.v|
+!s101 -O0
+valtera_reset_synchronizer
+!i10b 1
+!s100 S:MV<zY7aIJ:7BDzFTSH>0
+IQ<5[L?E^P`[^_NNC`f9N]3
+V3CjoOZCIEdzCJgPn8]D7`2
+R1
+R2
+8c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v
+Fc:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v
+L0 24
+R3
+r1
+!s85 0
+31
+!s108 1430200702.055000
+!s107 c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|RAMSYS|+incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules|c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/altera_reset_synchronizer.v|
+!s101 -O0
+R4
+R5
+vRAMSYS
+IaAjHLHN4:XH0cg_TEN39U1
+V<YPTjjEoWn4LDe7:DW[6@2
+R1
+w1430200364
+8c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v
+Fc:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v
+L0 6
+R3
+r1
+31
+R4
+n@r@a@m@s@y@s
+!i10b 1
+!s100 jGnE0cLViIGQBY?oE2RQU3
+!s85 0
+!s108 1430200701.268000
+!s107 c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v|
+!s90 -reportprogress|300|-vlog01compat|-work|RAMSYS|+incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys|c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/ramsys.v|
+!s101 -O0
+!s92 -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys -O0
+vRAMSYS_new_sdram_controller_0
+If]o1`EXO]6V95Dh2I?[UV0
+V:4b^IY<H43lIA5WoIRg8`0
+R1
+R2
+Z6 8c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v
+Z7 Fc:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v
+L0 158
+R3
+r1
+31
+Z8 !s108 1430200701.446000
+Z9 !s107 c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|RAMSYS|+incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules|c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v|
+R4
+R5
+n@r@a@m@s@y@s_new_sdram_controller_0
+!i10b 1
+!s100 Az3YRS5Kn[O1jJWi2LB?Z2
+!s85 0
+!s101 -O0
+vRAMSYS_new_sdram_controller_0_input_efifo_module
+I21XdX^Gg[>_bo`SZVRU9F1
+V@Icco[JDY^3DA81WP3f[T0
+R1
+R2
+R6
+R7
+L0 21
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+n@r@a@m@s@y@s_new_sdram_controller_0_input_efifo_module
+!i10b 1
+!s100 hjLQGCD;]ke4`6L7Wj7:l0
+!s85 0
+!s101 -O0
+vRAMSYS_pll_0
+IIB0@^igadoRdQ4[iKe7VY1
+VSzUIX`]2@dDMEA26HVf9;1
+R1
+R2
+8c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v
+Fc:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v
+L0 2
+R3
+r1
+31
+R4
+R5
+n@r@a@m@s@y@s_pll_0
+!i10b 1
+!s100 Z4gX>K5C2L2?AYNZQ`z^m0
+!s85 0
+!s108 1430200701.686000
+!s107 c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|RAMSYS|+incdir+c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules|c:/users/antonio/desktop/fpga-soc/sdram/db/ip/ramsys/submodules/ramsys_pll_0.v|
+!s101 -O0
